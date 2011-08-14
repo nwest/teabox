@@ -1,7 +1,7 @@
 body {
   background: url(teaboxme-bg.jpg) no-repeat right top fixed;
   background-size: 90%;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   color: #222; 
 }
 #content {
@@ -27,7 +27,12 @@ body {
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
+  margin-bottom: 1em;
 }
+a#signup-button:hover {
+  background-color: #30902b;
+}
+
 #content p {
   font-weight: 300;
   font-size: 1.05em;
