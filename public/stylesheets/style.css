@@ -31,10 +31,22 @@ body {
 }
 a#signup-button:hover {
   background-color: #30902b;
+  box-shadow: inset 0px 0px 24px #23691f;
 }
 
 #content p {
   font-weight: 300;
   font-size: 1.05em;
   margin-bottom: 40px;
+}
+
+@media all and (max-width: 900px) {
+    #overlay {
+        background-color: rgba(255,255,255,0.6);
+        position: fixed;
+        left: 8px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+    }
 }
