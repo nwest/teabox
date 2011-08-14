@@ -7,9 +7,10 @@ body {
 #content {
   margin-left: 40px;
   width: 400px;
+  background-color: rgba(255,255,255,0.1);
 }
 #content h1 {
-  font-size: 5em;
+  font-size: 3.5em;
   margin-bottom: 5px;
 }
 #content h2 {
@@ -27,7 +28,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  margin-bottom: 1em;
+  text-align: center;
 }
 a#signup-button:hover {
   background-color: #30902b;
@@ -37,8 +38,57 @@ a#signup-button:hover {
 #content p {
   font-weight: 300;
   font-size: 1.05em;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
+
+#content p#ship {
+  font-size: 0.8em;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+#testimonials {
+  width: 390px;
+  background-color: rgba(25,25,25,0.15);
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+
+#testimonials img {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+#testimonialcontent {
+  position: relative;
+  left: 10px;
+}
+
+#testimonialcontent p, a {
+  font-size: 14px;
+  margin: 0;
+  width: 380px;
+  text-shadow: 0px -1px 1px rgba(255,255,255,0.7);
+}
+
+#testimonialcontent a {
+  color: #23691f;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#testimonialcontent p#content {
+    font-weight: bold;
+}
+
+#testimonials a#twitterlink:hover {
+  color: #30902b;
+}
+
+
 
 @media all and (max-width: 900px) {
     #overlay {
