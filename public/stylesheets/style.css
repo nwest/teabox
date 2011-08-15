@@ -88,8 +88,6 @@ a#signup-button:hover {
   color: #30902b;
 }
 
-
-
 @media all and (max-width: 900px) {
     #overlay {
         background-color: rgba(255,255,255,0.6);
